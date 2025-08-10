@@ -35,6 +35,10 @@ Bersihkan secara rutin dengan kain lembut yang sedikit lembap.
 
 Hindari paparan langsung sinar matahari berlebihan agar warna dan kilap kayu tetap terjaga.
 
+# Gambar
+
+![dining-table.jpg](/images/dining-table.jpg)
+
 \---
 
 \> Cocok untuk keluarga yang mengutamakan kualitas, estetika, dan kehangatan suasana makan bersama.
