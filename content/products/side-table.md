@@ -5,7 +5,7 @@ price: Rp 1.800.000
 image: /images/side-table.png
 ---
 
-# Side Table page
+# Side Table
 
 Side Table Minimalis ini adalah pilihan tepat untuk melengkapi ruang tamu, kamar tidur, atau sudut santai Anda.
 
