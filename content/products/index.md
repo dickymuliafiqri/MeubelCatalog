@@ -5,6 +5,6 @@ price: "Rp 3.800.000"
 image: "/images/meja.jpg"
 ---
 
-## Detail Produk
+# Detail Produk
 
 Meja kayu jati solid, tahan lama, dan memiliki finishing yang rapi.

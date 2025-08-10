@@ -40,8 +40,8 @@
       <UContainer>
         <h2 class="text-2xl font-bold mb-4">Siap Memesan?</h2>
         <p class="mb-6">Klik tombol di bawah untuk langsung terhubung dengan kami via WhatsApp.</p>
-        <UButton size="lg" variant="solid" color="white" class="text-primary-500" :to="whatsappLink" target="_blank">
-          Hubungi via WhatsApp
+        <UButton size="lg" color="primary" icon="i-mdi-whatsapp" :to="whatsappLink" target="_blank">
+          Pesan Sekarang
         </UButton>
       </UContainer>
     </section>

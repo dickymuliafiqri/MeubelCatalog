@@ -1,11 +1,16 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative bg-gray-100 min-h-screen flex justify-center items-center flex-col overflow-hidden">
-      <UCarousel v-slot="{ item }" :items="items" class="min-w-[50%] absolute overflow-hidden" auto-scroll>
-        <img :src="item" class="rounded-lg bg-red-500 my-auto" />
+    <section class="relative bg-gray-100 lg:min-h-screen flex justify-center items-center flex-col overflow-hidden">
+      <UCarousel
+        v-slot="{ item }"
+        :items="items"
+        class="w-full absolute overflow-hidden flex justify-center items-center"
+        auto-scroll
+      >
+        <img :src="item" class="rounded-lg my-auto min-h-full" />
       </UCarousel>
-      <UContainer class="py-16 text-center z-10 rounded-xl backdrop-blur-sm text-white">
+      <UContainer class="py-16 text-center z-10 rounded-xl backdrop-blur-xs lg:backdrop-blur-sm text-white">
         <h1 class="text-3xl md:text-5xl font-bold mb-4">Furniture Elegan, Nyaman, & Berkualitas</h1>
         <p class="mb-6">
           Kami menyediakan berbagai pilihan meubel untuk rumah dan kantor dengan desain modern dan harga bersahabat.
