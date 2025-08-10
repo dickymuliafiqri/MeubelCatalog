@@ -40,9 +40,26 @@
       <UContainer>
         <h2 class="text-2xl font-bold mb-4">Siap Memesan?</h2>
         <p class="mb-6">Klik tombol di bawah untuk langsung terhubung dengan kami via WhatsApp.</p>
-        <UButton size="lg" color="primary" icon="i-mdi-whatsapp" :to="whatsappLink" target="_blank">
-          Pesan Sekarang
-        </UButton>
+        <div class="flex gap-2 w-full justify-center items-center">
+          <UButton
+            size="lg"
+            color="primary"
+            icon="i-mdi-whatsapp"
+            to="https://wa.me/+6285294775689?text=Halo, saya ingin membeli produk dari Meubel Abadi Suar Jaya"
+            target="_blank"
+          >
+            Admin 1
+          </UButton>
+          <UButton
+            size="lg"
+            color="primary"
+            icon="i-mdi-whatsapp"
+            to="https://wa.me/+6285129870863?text=Halo, saya ingin membeli produk dari Meubel Abadi Suar Jaya"
+            target="_blank"
+          >
+            Admin 2
+          </UButton>
+        </div>
       </UContainer>
     </section>
   </div>
@@ -63,11 +80,6 @@ const steps = [
     description: "Transfer DP atau pembayaran penuh, lalu pesanan akan segera diproses.",
   },
 ];
-
-// Ganti nomor WhatsApp dengan nomor usaha kamu
-const whatsappNumber = "6281234567890";
-const whatsappMessage = "Halo, saya ingin memesan produk dari MeubelIndah.";
-const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 </script>
 
 <style scoped>

@@ -8,12 +8,6 @@ const { data: post } = (await useAsyncData("products", () =>
     .path(selTitle as string)
     .first()
 )) as Record<string, any>;
-
-function goToWhatsApp() {
-  const phone = "628123456789"; // ganti dengan nomor WA pemilik
-  const message = `Halo, saya ingin memesan produk: ${post?.title}`;
-  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, "_blank");
-}
 </script>
 
 <template>
@@ -39,8 +33,25 @@ function goToWhatsApp() {
       </div>
 
       <!-- Tombol WhatsApp -->
-      <div class="mt-8 text-center">
-        <UButton size="lg" color="primary" icon="i-mdi-whatsapp" @click="goToWhatsApp"> Pesan Sekarang </UButton>
+      <div class="flex justify-center items-center gap-2 mt-8 text-center">
+        <UButton
+          size="lg"
+          color="primary"
+          icon="i-mdi-whatsapp"
+          :to="'https://wa.me/+6285294775689?text=Halo, saya ingin membeli produk ' + post.title"
+          target="_blank"
+        >
+          Admin 1
+        </UButton>
+        <UButton
+          size="lg"
+          color="primary"
+          icon="i-mdi-whatsapp"
+          :to="'https://wa.me/+6285129870863?text=Halo, saya ingin membeli produk ' + post.title"
+          target="_blank"
+        >
+          Admin 2
+        </UButton>
       </div>
     </UCard>
   </UContainer>

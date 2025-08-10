@@ -16,9 +16,6 @@
           <h3 class="text-xl font-bold mb-4">Metode Pembayaran</h3>
           <div class="flex flex-wrap items-center gap-4">
             <img src="/images/bank/bca.png" alt="BCA" class="h-8 object-contain" />
-            <img src="/images/bank/mandiri.png" alt="Mandiri" class="h-8 object-contain" />
-            <img src="/images/bank/bni.png" alt="BNI" class="h-8 object-contain" />
-            <img src="/images/bank/bri.png" alt="BRI" class="h-8 object-contain" />
           </div>
         </div>
 
@@ -26,8 +23,9 @@
         <div>
           <h3 class="text-xl font-bold mb-4">Ikuti Kami</h3>
           <div class="flex flex-wrap items-center gap-4">
-            <img src="/images/logo/instagram.png" alt="BCA" class="h-8 object-contain" />
-            <img src="/images/logo/tiktok.png" alt="Mandiri" class="h-8 object-contain" />
+            <NuxtLink to="https://www.instagram.com/abadisuarjaya?igsh=bjVmbTNhbWk3bXRh&utm_source=qr" target="_blank">
+              <img src="/images/logo/instagram.png" alt="Instagram" class="h-8 object-contain" />
+            </NuxtLink>
           </div>
         </div>
       </div>
