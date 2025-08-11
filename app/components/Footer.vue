@@ -4,11 +4,11 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Info Usaha -->
         <div>
-          <h3 class="text-xl font-bold mb-4">Toko Mebel Indah</h3>
-          <p>Jl. Melati No. 123</p>
-          <p>Kota Bandung, Jawa Barat</p>
-          <p>Email: tokomebel@example.com</p>
-          <p>Telp: 0812-3456-7890</p>
+          <h3 class="text-xl font-bold mb-4">Meubel Abadi Suar Jaya</h3>
+          <p>Dusun Krajan RT/RW 001/005 Desa PURWOHARJO 68483</p>
+          <p>Banyuwangi, Jawa Timur</p>
+          <p>Email: abadisuarjaya@gmail.com</p>
+          <p>Telp: +62 852-9477-5689</p>
         </div>
 
         <!-- Metode Pembayaran -->
@@ -32,7 +32,7 @@
 
       <!-- Copyright -->
       <div class="mt-8 border-t border-gray-700 pt-4 text-center text-sm">
-        &copy; {{ new Date().getFullYear() }} Toko Mebel Indah. Semua Hak Dilindungi.
+        &copy; {{ new Date().getFullYear() }} Toko Mebel Abadi Suar Jaya. Semua Hak Dilindungi.
       </div>
     </UContainer>
   </footer>

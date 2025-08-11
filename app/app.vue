@@ -59,16 +59,16 @@ useHead({
         priceRange: "Rp",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "Jl. Contoh Raya No. 123",
+          streetAddress: "Dusun Krajan RT/RW 001/005 Purwoharjo",
           addressLocality: "Banyuwangi",
           addressRegion: "Jawa Timur",
-          postalCode: "684xx",
+          postalCode: "68483",
           addressCountry: "ID",
         },
         geo: {
           "@type": "GeoCoordinates",
-          latitude: -8.2192, // koordinat Banyuwangi (ganti sesuai lokasi toko)
-          longitude: 114.3694,
+          latitude: -8.4889307,
+          longitude: 114.2225106,
         },
         openingHoursSpecification: [
           {
